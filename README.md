@@ -1,1 +1,1 @@
-# devops_test_pipeline
+# self study project
