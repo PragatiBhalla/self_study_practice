@@ -2,7 +2,7 @@ FROM tomcat:8
 MAINTAINER PRAGATI BHALLA
 
 # setup
-COPY helloworld-1.1.war /usr/local/tomact/webapps/
+COPY java-hello-world.war /usr/local/tomact/webapps/
 RUN java -version
 
 
