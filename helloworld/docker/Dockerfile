@@ -7,7 +7,7 @@ RUN java -version
 
 
 # Expose the ports we're interested in
-EXPOSE 9090
+EXPOSE 8080
 
 # Set the default command to run on boot
 CMD ["catalina.sh", "run"]
