@@ -3,8 +3,6 @@ services:
        image: sonarqube:7.9.2-community
        container_name: sonar-container
        restart: always
-       networks:
-           - sonarnet
        environment:
            - SONARQUBE_JDBC_USERNAME=sonar
            - SONARQUBE_JDBC_PASSWORD=your-strong-password-here
@@ -17,6 +15,3 @@ services:
        - '/data/sonar/sonarqube_data:/opt/sonarqube/data'
        - '/data/sonar/sonarqube_extensions:/opt/sonarqube/extensions'
        - '/data/sonar/sonarqube_bundled-plugins:/opt/sonarqube/lib/bundled-plugins'
-networks:
-   sonarnet:
-    driver: bridge-
