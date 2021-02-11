@@ -19,8 +19,6 @@ services:
        image: postgres:12.1
        container_name: postgres-container
        restart: always
-       networks:
-           - sonarnet
        environment:
            - POSTGRES_USER=sonar
            - POSTGRES_PASSWORD=your-strong-password-here
@@ -28,4 +26,3 @@ services:
        volumes:
        - '/Users/pr369700/Documents/personal/postgresql/sonarqube_db:/var/lib/postgresql'
        - '/Users/pr369700/Documents/personal/postgresql/postgresql_data:/var/lib/postgresql/data'
-    
