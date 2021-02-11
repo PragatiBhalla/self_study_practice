@@ -11,7 +11,7 @@ services:
        - "9000:9000"
        - "9092:9092"
        volumes:
-       - '/data/sonar/sonarqube_conf:/opt/sonarqube/conf'
-       - '/data/sonar/sonarqube_data:/opt/sonarqube/data'
-       - '/data/sonar/sonarqube_extensions:/opt/sonarqube/extensions'
-       - '/data/sonar/sonarqube_bundled-plugins:/opt/sonarqube/lib/bundled-plugins'
+       - '/Users/pr369700/Documents/personal/sonar/sonarqube_conf:/opt/sonarqube/conf'
+       - '/Users/pr369700/Documents/personal/sonar/sonarqube_data:/opt/sonarqube/data'
+       - '/Users/pr369700/Documents/personal/sonar/sonarqube_extensions:/opt/sonarqube/extensions'
+       - '/Users/pr369700/Documents/personal/sonar/sonarqube_bundled-plugins:/opt/sonarqube/lib/bundled-plugins'
