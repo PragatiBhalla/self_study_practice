@@ -16,6 +16,12 @@
 	    <scope>test</scope>
 	</dependency>
   </dependencies>
+  <distributionManagement>
+    <repository>
+      <id>releases</id>
+      <url>http://localhost:8090/nexus/content/repositories/releases</url>
+    </repository>
+  </distributionManagement>
   <properties>
      <maven.compiler.source>1.8</maven.compiler.source>
      <maven.compiler.target>1.8</maven.compiler.target>
