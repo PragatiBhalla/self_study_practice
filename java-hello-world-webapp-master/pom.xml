@@ -19,7 +19,7 @@
   <distributionManagement>
     <snapshotRepository>
       <id>releases</id>
-      <url>http://localhost:8090/repository/releases/</url>
+      <url>http://localhost:8090/nexus/content/repositories/releases/</url>
     </snapshotRepository>
   </distributionManagement>
   <properties>
