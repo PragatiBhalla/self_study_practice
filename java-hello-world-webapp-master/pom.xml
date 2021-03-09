@@ -19,7 +19,7 @@
   <distributionManagement>
     <snapshotRepository>
       <id>nexus</id>
-      <url>http://localhost:8090/repository/maven-snapshots/</url>
+      <url>http://localhost:8090/repository/releases/</url>
     </snapshotRepository>
   </distributionManagement>
   <properties>
