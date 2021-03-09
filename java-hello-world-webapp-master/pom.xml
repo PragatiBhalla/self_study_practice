@@ -18,7 +18,7 @@
   </dependencies>
   <distributionManagement>
     <snapshotRepository>
-      <id>nexus</id>
+      <id>releases</id>
       <url>http://localhost:8090/repository/releases/</url>
     </snapshotRepository>
   </distributionManagement>
