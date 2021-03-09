@@ -30,6 +30,6 @@ services:
        image: sonatype/nexus
        container_name: nexus
        volumes:
-       - "nexus-data:/sonatype-work"
+       - '/Users/pr369700/Documents/personal/nexus/nexus-data:/sonatype-work'
        ports:
        - "8081:8081"
