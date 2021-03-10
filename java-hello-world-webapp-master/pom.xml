@@ -34,7 +34,7 @@
      <sonar.sources>pom.xml,src/main/java</sonar.sources>
   </properties>
   <build>
-    <finalName>java-hello-world</finalName>
+    <finalName>java-hello-world-webapp</finalName>
     <pluginManagement>
       <plugins>
         <plugin>
